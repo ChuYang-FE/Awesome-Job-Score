@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import MyClass from './components/MyClass'
+import MyFunc from './components/MyFunc'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <MyClass />
+        {/* <MyFunc /> */}
       </header>
     </div>
   );
